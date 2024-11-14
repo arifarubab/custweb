@@ -3,6 +3,9 @@
 // src/components/Hero.tsx
 import React, { useState } from 'react';
 import styles from './Hero.module.css';
+import Image from 'next/image';
+
+
 
 const Hero: React.FC = () => {
   // State to manage visibility of contact details
@@ -18,9 +21,9 @@ const Hero: React.FC = () => {
       <div className={styles.container}>
         {/* Left Section: Introduction */}
         <div className={styles.leftSection}>
-          <h1 className={styles.title}>Hi, I'm Rubab Ayub</h1>
+          <h1 className={styles.title}>Hi, It&apos;s Rubab Ayub</h1>
           <p className={styles.description}>
-            I'm a passionate Web Developer, who creates beautiful, user-friendly web experiences.
+            I&apos;m a passionate Web Developer, who creates beautiful, user friendly web experiences.
           </p>
           <button className={styles.ctaButton} onClick={handleButtonClick}>
             Get in Touch
@@ -29,11 +32,13 @@ const Hero: React.FC = () => {
 
         {/* Right Section: Profile Image */}
         <div className={styles.rightSection}>
-          <img
+          <Image
             src="/mypic.jpeg"
             alt="Your Profile"
+            width={200} // specify width as per your design
+            height={200} // specify height as per your design
             className={styles.profileImage}
-          />
+            />
         </div>
       </div>
 
@@ -41,7 +46,7 @@ const Hero: React.FC = () => {
       {showContactDetails && (
         <div className={styles.contactDetails}>
           <p>
-            Thank you for reaching out! You can contact me via email or connect with me on LinkedIn and Facebook.
+            Thank you for reaching out. You can contact me via email or connect with me on LinkedIn and Facebook.
           </p>
           <p>Email: <a href="mailto:rubabarifa@gmail.com">rubabarifa@gmail.com</a></p>
           <div className={styles.socialLinks}>

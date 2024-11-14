@@ -11,7 +11,7 @@ export default function About() {
       <section id="about" className={styles.container}>
         <h2 className={styles.heading}>Hello, I am Rubab Ayub</h2>
         <p className={styles.paragraph}>
-          I am a passionate web developer with experience in creating responsive, user-friendly websites and applications.
+          I am a passionate web developer with experience in creating responsive, user friendly websites and applications.
           I specialize in technologies like Next.js, React, and Tailwind CSS to build beautiful and functional web experiences.
         </p>
 
@@ -44,7 +44,7 @@ export default function About() {
 
         <p className={styles.footerText}>
           Feel free to connect with me on LinkedIn or Facebook to discuss projects or collaborations.
-          Let's bring your ideas to life.
+          Let&apos;s bring your ideas to life.
         </p>
       </section>
       <Footer />

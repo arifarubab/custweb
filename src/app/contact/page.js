@@ -21,7 +21,7 @@ export default function Contact() {
       <section id="contact" className={styles.container}>
         <h2 className={styles.heading}>Get in Touch</h2>
         <p className={styles.paragraph}>
-          I’d love to hear from you. Whether you have a question, a project idea, or just want to connect, feel free to reach out.
+        I&apos;d love to hear from you. Whether you have a question, a project idea, or just want to connect, feel free to reach out.
         </p>
 
         {/* Button to toggle content */}
