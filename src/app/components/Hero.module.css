@@ -1,0 +1,84 @@
+/* src/components/Hero.module.css */
+
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem;
+  background-color: #f0f4f8; /* Light background color */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.leftSection {
+  flex: 1;
+  padding-right: 3rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2d3748;
+}
+
+.description {
+  font-size: 1.25rem;
+  color: #4a5568;
+  margin: 1rem 0;
+}
+
+.ctaButton {
+  background-color: #3182ce;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+}
+
+.ctaButton:hover {
+  background-color: #2b6cb0;
+}
+
+.rightSection {
+  flex: 1;
+}
+
+.profileImage {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contactDetails {
+  margin-top: 3rem;
+  background-color: #e2e8f0; /* Light gray background for contact details */
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.socialLinks {
+  margin-top: 1rem;
+}
+
+.socialLink {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #3182ce;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.socialLink:hover {
+  color: #2b6cb0;
+}
